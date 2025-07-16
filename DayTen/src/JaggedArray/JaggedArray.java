@@ -1,6 +1,6 @@
 package JaggedArray;
 
-class JaggedArray
+class JaggedArraydemo
 {
 	static void printArray(int c[][]) {
 		System.out.println("Array of elements are as follows");
@@ -18,14 +18,14 @@ class JaggedArray
 
 
 
-public class JaggedArrayDemo {
+public class JaggedArray {
 
 	public static void main(String[] args) {
 		
 	int c[][]= { {1,2,3,12,34} , {10,20} , {1} , {1,2,78,87} };
 		
 		System.out.println("No. of row in C array :"+c.length);
-JaggedArray.printArray(c);
+JaggedArraydemo.printArray(c);
 
 
 System.out.println("gfdcgfdghdcgh");
